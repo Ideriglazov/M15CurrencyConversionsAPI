@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0dc9b35a-d614-4e0b-b7e4-bb69552fbca5" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/LiveEndpointTestFailed.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/IncorrectDateTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -51,7 +51,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.LiveEndpointTestFailed">
+  <component name="RunManager" selected="JUnit.IncorrectDateTest">
     <configuration name="IncorrectCurrencyCodeTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="M15CurrencyConversionsAPI" />
       <option name="PACKAGE_NAME" value="" />
@@ -61,10 +61,28 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="IncorrectCurrencyCodeTestFailed" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="IncorrectCurrencyCodeTestFailed (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="M15CurrencyConversionsAPI" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="IncorrectCurrencyCodeTestFailed" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="IncorrectCurrencyCodeTestFailed" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="M15CurrencyConversionsAPI" />
+      <option name="PACKAGE_NAME" value="Failed" />
+      <option name="MAIN_CLASS_NAME" value="Failed.IncorrectCurrencyCodeTestFailed" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="IncorrectDateTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="M15CurrencyConversionsAPI" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="IncorrectDateTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -81,9 +99,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.IncorrectDateTest" />
+        <item itemvalue="JUnit.IncorrectCurrencyCodeTestFailed (1)" />
+        <item itemvalue="JUnit.IncorrectCurrencyCodeTest" />
         <item itemvalue="JUnit.LiveEndpointTestFailed" />
         <item itemvalue="JUnit.IncorrectCurrencyCodeTestFailed" />
-        <item itemvalue="JUnit.IncorrectCurrencyCodeTest" />
       </list>
     </recent_temporary>
   </component>
