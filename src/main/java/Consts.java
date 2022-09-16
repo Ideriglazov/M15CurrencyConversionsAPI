@@ -8,4 +8,5 @@ public class Consts {
     public static final String LIST_ENDPOINT = "/list";
     public static final String LIVE_ENDPOINT = "/live";
     public static final String TIMEFRAME_ENDPOINT = "/timeframe";
+    public static final String EPOCHCONVERTER_URL = "https://www.epochconverter.com/";
 }
