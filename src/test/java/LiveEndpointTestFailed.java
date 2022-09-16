@@ -5,6 +5,8 @@ import static org.hamcrest.Matchers.*;
 
 
 public class LiveEndpointTestFailed {
+    //Link to the corresponding test bug in Jira
+    //https://legionqa.atlassian.net/jira/software/c/projects/MICAT/issues/MICAT-7
     private static Response response;
     @Test
     public void LiveEndpointTest() {

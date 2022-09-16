@@ -5,9 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0dc9b35a-d614-4e0b-b7e4-bb69552fbca5" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/test/java/VariousCurrenciesSelectionTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Consts.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Consts.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/HistoricalDateTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/HistoricalDateTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/IncorrectCurrencyCodeTestFailed.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/IncorrectCurrencyCodeTestFailed.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/IncorrectDateTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/IncorrectDateTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/LiveEndpointTestFailed.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/LiveEndpointTestFailed.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,7 +56,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.HistoricalDateTest">
+  <component name="RunManager" selected="JUnit.VariousCurrenciesSelectionTest">
     <configuration name="HistoricalDateTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="M15CurrencyConversionsAPI" />
       <option name="PACKAGE_NAME" value="" />
@@ -90,10 +93,10 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LiveEndpointTestFailed" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="VariousCurrenciesSelectionTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="M15CurrencyConversionsAPI" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="LiveEndpointTestFailed" />
+      <option name="MAIN_CLASS_NAME" value="VariousCurrenciesSelectionTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -101,11 +104,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.VariousCurrenciesSelectionTest" />
         <item itemvalue="JUnit.HistoricalDateTest" />
         <item itemvalue="JUnit.IncorrectDateTest" />
         <item itemvalue="JUnit.IncorrectCurrencyCodeTestFailed (1)" />
         <item itemvalue="JUnit.IncorrectCurrencyCodeTest" />
-        <item itemvalue="JUnit.LiveEndpointTestFailed" />
       </list>
     </recent_temporary>
   </component>

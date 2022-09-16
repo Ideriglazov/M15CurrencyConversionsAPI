@@ -5,6 +5,8 @@ import static org.hamcrest.Matchers.*;
 
 
 public class IncorrectDateTest {
+    //Link to the corresponding test case in Jira
+    //https://legionqa.atlassian.net/jira/software/c/projects/MICAT/issues/MICAT-6
     private static Response response;
     @Test
     public void IncorrectDateTest() {

@@ -4,6 +4,8 @@ import static io.restassured.RestAssured.given;
 
 
 public class IncorrectCurrencyCodeTestFailed {
+    //Link to the corresponding test bug in Jira
+    //https://legionqa.atlassian.net/jira/software/c/projects/MICAT/issues/MICAT-8
     private static Response response;
     @Test
     public void incorrectCurrencyCodeTest() {

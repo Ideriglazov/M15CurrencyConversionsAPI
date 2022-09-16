@@ -6,7 +6,6 @@ import org.junit.jupiter.api.Test;
 import static io.restassured.RestAssured.given;
 import static org.hamcrest.Matchers.*;
 import static org.junit.jupiter.api.Assertions.assertNotNull;
-
 import org.junit.jupiter.api.*;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
@@ -17,6 +16,8 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 
 
 public class HistoricalDateTest {
+    //Link to the corresponding test case in Jira
+    //https://legionqa.atlassian.net/jira/software/c/projects/MICAT/issues/MICAT-5
     private static Response response;
    private static WebDriver driver;
     @Test
