@@ -40,6 +40,10 @@ public class HistoricalDateTest {
         wait.until(ExpectedConditions.presenceOfElementLocated(By.xpath("//*[contains(text(), 'среда, 1 июля 2020 г., 19:59:59')]")));
         WebElement date = driver.findElement(By.xpath("//*[contains(text(), 'среда, 1 июля 2020 г., 19:59:59')]"));
         assertNotNull(date);
+    }
+    @AfterAll
+    public static void classTearDown() {
         SharedDriver.closeDriver();
+
     }
 }
