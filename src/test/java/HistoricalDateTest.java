@@ -37,8 +37,8 @@ public class HistoricalDateTest {
         searchBar.sendKeys(timestampString);
         WebElement timeStampToHumanDateButton = driver.findElement(By.xpath("//input[@id='ecinput']//following-sibling::button[@type='submit']"));
         timeStampToHumanDateButton.click();
-        wait.until(ExpectedConditions.presenceOfElementLocated(By.xpath("//*[contains(text(), 'среда, 1 июля 2020 г., 19:59:59')]")));
-        WebElement date = driver.findElement(By.xpath("//*[contains(text(), 'среда, 1 июля 2020 г., 19:59:59')]"));
+        wait.until(ExpectedConditions.presenceOfElementLocated(By.xpath("//span[@title='Wed Jul 01 2020 19:59:59 GMT-0400 (Eastern Daylight Time)']")));
+        WebElement date = driver.findElement(By.xpath("//span[@title='Wed Jul 01 2020 19:59:59 GMT-0400 (Eastern Daylight Time)']"));
         assertNotNull(date);
     }
     @AfterAll
